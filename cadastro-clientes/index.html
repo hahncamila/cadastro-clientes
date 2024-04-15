@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de clientes</title>
+</head>
+<body>
+    
+    <h1>Cadastro de clientes</h1>
+ 
+    <div>
+        <div class="cliente">
+
+           <h2 id="texto">Informe os dados do novo cliente</h2>
+
+            <form>
+                <label for="c-nome">Nome</label>
+                <input id="c-nome" type="text" required>
+
+                <label for="c-email">Email</label>
+                <input id="c-email" type="email" required>
+
+                <label for="c-phone">Telefone</label>
+                <input id="c-phone" type="tel" required>
+
+                <button id="btnSalvar">Salvar</button>
+            </form>
+
+        </div>
+    </div> 
+
+    <h2 id="texto-1">Lista de clientes cadastrados</h2>
+
+    <div class="container">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Filtrar por nome, email ou telefone">
+            <button id="btnSearch">Filtrar</button>
+        </div>
+
+        <div class="divTable">
+            <table id="clientesTable"></table>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

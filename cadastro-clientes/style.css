@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #403d3d;
+    gap:50px;
+}
+
+h1{
+    width: 100%;
+    background-color:#800303;;
+    color: white;
+    padding: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#texto{
+    color: #800303;
+    padding-bottom: 30px;
+}
+
+#texto-1{
+    color: white;
+    text-transform: uppercase;
+}
+
+button {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+
+/*cadastro de clientes*/
+
+
+.cliente {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.cliente label {
+    font-size: 14px;
+    width: 100%;
+}
+
+.cliente input {
+    width: 100%;
+    outline: none;
+    padding: 5px 10px; 
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.cliente button {
+    width: 100%;
+    font-size: 16px;
+    margin: 10px auto;
+    outline: none;
+    border-radius: 5px; 
+    padding: 5px 10px; 
+    border: none;
+    background-color: #800303;
+    color: white;
+}
+
+  
+/*Filtro de pesquisa*/
+
+
+.search-container{
+    text-align: center;
+}
+
+#searchInput{
+    width: 50%;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #800303;
+    color: #800303;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#btnSearch{
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #800303;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+/*Tabela com os clientes cadastrados*/
+
+
+
+.container {
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+    background: white;
+    margin-bottom: 100px;
+}
+
+.divTable {
+    padding: 10px;
+    width: auto;  
+}
+
+table {
+    width: 100%;
+    border-spacing: 10px;
+    word-break: break-all;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: rgb(238, 235, 235);
+}
+
+tr {
+    border-bottom: 1px solid rgb(238, 235, 235)!important;
+}
+
+thead tr th {
+    padding: 5px;
+    text-align: start;
+    margin-bottom: 50px;
+}
+
+td button{
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #800303;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
